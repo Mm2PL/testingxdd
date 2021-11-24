@@ -1,0 +1,34 @@
+name: Issue report
+description: Report something that's missing, that you have trouble with or that stopped working
+title: ''
+labels: ["issue-report"]
+body:
+  - type: textarea
+    id: describe_your_issue
+    attributes:
+        label: Describe your issue
+        description: "Write a brief description of your issue.\
+\
+    Examples:\
+    - I cannot do X.\
+    - I have trouble doing X.\
+    - Feature X has stopped working for me.\
+\
+    Important:\
+        Focus on the problem instead of a concrete solution. This ensures that the focus of the thread is to resolve your issue.\
+        If you want to voice a concrete idea you can add a comment below after posting the issue."
+    validations:
+        required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+        label: Screenshots
+        description: While optional, it's highly encouraged to include screenshots or videos to illustrate what you mean.
+
+  - type: input
+    id: versions
+    attributes:
+        label: OS and Chatterino Version
+        description: The name of your Operating System and the version shown in Chatterino's title bar.
+
