@@ -21,7 +21,7 @@ jobs:
             pch: false
 
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v3.3.0
         with:
           submodules: true
           fetch-depth: 0  # allows for tags access
